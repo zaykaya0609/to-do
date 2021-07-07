@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<body>
+    <div class="app">
+        <div class="to_do_title">
+            <h1>My Day</h1>
+            <div class="date_info">
+                <p class="date">Tuesday,12 May</p>
+                <p class="time"></p>
+            </div>
+        </div>
+        
+        <div class="to_do_items">
+            <ul>
+                <li class="animate__animated animate__fadeInLeft animate__delay-1">
+                    <div class="to_do_text">
+                        <h3>test task</h3>
+                        <p>Tasks</p>
+                    </div>
+                    <div class="to_do_remove">
+                        <img src="close.png" alt="">
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+
+        <div class="to_do_add">
+            <input type="text" placeholder="+ Add task">
+        </div>
+    </div>
+    <div class="modal_window animate__animated">
+        <div class="title">
+            <p>Warning!!</p>
+        </div>
+        <div class="text">
+            <p>you cant type less then 3 words</p>
+        </div>
+        <div class="action">
+            <button>okay</button>
+        </div>
+    </div>
+
+    <div class="dark animate__animated">
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+    <script src="moment.js"></script>
+    <script src="moment-with-locales.js"></script>
+</body>
+</html>
